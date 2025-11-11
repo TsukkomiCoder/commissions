@@ -1,0 +1,17 @@
+.art-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+}
+
+img {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 15px;
+}
+
+div {
+    width: 100%;
+}
