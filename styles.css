@@ -33,7 +33,6 @@ div {
     padding: 5px;
     margin: 7px;
     width: 45%;
-    height: 20em;
     box-sizing: border-box;
     flex: 1 1 100%;
 }
