@@ -1,0 +1,58 @@
+* {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1, h2.title, p.site_list, h2.cards, p.cards, a {
+    color: #42D6FF;
+    text-align: center;
+}
+
+a#back {
+    color: #42D6FF;
+}
+
+ul#payments li {
+    text-align: center;
+    list-style-type: none;
+}
+
+body {
+    background-color: #040733;
+}
+
+div {
+    background-color: #6EE1FF;
+    color: #040733;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 7px;
+    width: 45%;
+    height: 20em;
+    box-sizing: border-box;
+    flex: 1 1 100%;
+}
+
+@media (min-width: 700px) {
+    main {
+        flex-wrap: nowrap;
+    }
+
+    div {
+        flex: 1 1 45%;
+    }
+}
+
+/* Links */
+a:hover::before {
+    content: "<";
+}
+
+a:hover::after {
+    content: ">";
+}
